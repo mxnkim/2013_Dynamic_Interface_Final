@@ -32,11 +32,7 @@ void draw() {
   }
 }
 
-//void mousePressed() {
-//
-//  //add new object of Donut when you press the mouse
-//  arraydonuts.add(new Donut(mouseX, mouseY));
-//}
+
 
 void oscEvent(OscMessage message) {
   if (message.checkAddrPattern("/wii/a") == true) {
